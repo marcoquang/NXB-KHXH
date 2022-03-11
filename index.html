@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NXB-KHXH</title>
+    <script src="./js/jquery-3.6.0.js"></script>
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
     <link
@@ -77,42 +78,42 @@
           <ul class="slide__image-list">
             <li class="slide__image-item">
               <a href="#"
-                ><img src="./image/slide-img1.jpg" id="slide-image" alt=""
+                ><img src="./image/slide-img1.jpg" id="slide-image1" alt=""
               /></a>
             </li>
             <li class="slide__image-item">
               <a href="#"
-                ><img src="./image/slide-img2.jpg" id="slide-image" alt=""
+                ><img src="./image/slide-img2.jpg" id="slide-image2" alt=""
               /></a>
             </li>
             <li class="slide__image-item">
               <a href="#"
-                ><img src="./image/slide-img3.jpg" id="slide-image" alt=""
+                ><img src="./image/slide-img3.jpg" id="slide-image3" alt=""
               /></a>
             </li>
             <li class="slide__image-item">
               <a href="#"
-                ><img src="./image/slide-img4.jpg" id="slide-image" alt=""
+                ><img src="./image/slide-img4.jpg" id="slide-image4" alt=""
               /></a>
             </li>
             <li class="slide__image-item">
               <a href="#"
-                ><img src="./image/slide-img5.jpg" id="slide-image" alt=""
+                ><img src="./image/slide-img5.jpg" id="slide-image5" alt=""
               /></a>
             </li>
             <li class="slide__image-item">
               <a href="#"
-                ><img src="./image/slide-img6.jpg" id="slide-image" alt=""
+                ><img src="./image/slide-img6.jpg" id="slide-image6" alt=""
               /></a>
             </li>
             <li class="slide__image-item">
               <a href="#"
-                ><img src="./image/slide-img7.jpg" id="slide-image" alt=""
+                ><img src="./image/slide-img7.jpg" id="slide-image7" alt=""
               /></a>
             </li>
             <li class="slide__image-item">
               <a href="#"
-                ><img src="./image/slide-img8.jpg" id="slide-image" alt=""
+                ><img src="./image/slide-img8.jpg" id="slide-image8" alt=""
               /></a>
             </li>
           </ul>
@@ -585,29 +586,199 @@
     </div>
     <script>
       var slide = new Array();
-      slide[0] = "./image/slide-img3.jpg";
-      slide[1] = "./image/slide-img5.jpg";
-      slide[2] = "./image/slide-img7.jpg";
-      slide[3] = "./image/slide-img6.jpg";
-      slide[4] = "./image/slide-img4.jpg";
-      slide[5] = "./image/slide-img3.jpg";
-      slide[6] = "./image/slide-img1.jpg";
+      slide[0] = "./image/slide-img1.jpg";
+      slide[1] = "./image/slide-img2.jpg";
+      slide[2] = "./image/slide-img3.jpg";
+      slide[3] = "./image/slide-img4.jpg";
+      slide[4] = "./image/slide-img5.jpg";
+      slide[5] = "./image/slide-img6.jpg";
+      slide[6] = "./image/slide-img7.jpg";
       slide[7] = "./image/slide-img8.jpg";
-      var n = 0;
       function next() {
-        n++;
-        if (n == slide.length) {
-          n = 0;
-        }
-        document.getElementById("slide-image").setAttribute("src", slide[n]);
-      }
-      function prev() {
-        n--;
-        if (n < 0) {
+        // n++;
+        // if (n == slide.length) {
+        //   n = 0;
+        // }
+        var n = Math.floor(Math.random() * 10);
+        if (n > slide.length - 1) {
           n = slide.length - 1;
         }
-        document.getElementById("slide-image").setAttribute("src", slide[n]);
+        document.getElementById("slide-image1").setAttribute("src", slide[n]);
+        var n = Math.floor(Math.random() * 10);
+        if (n > slide.length - 1) {
+          n = slide.length - 1;
+        }
+        document.getElementById("slide-image2").setAttribute("src", slide[n]);
+        var n = Math.floor(Math.random() * 10);
+        if (n > slide.length - 1) {
+          n = slide.length - 1;
+        }
+        document.getElementById("slide-image3").setAttribute("src", slide[n]);
+        var n = Math.floor(Math.random() * 10);
+        if (n > slide.length - 1) {
+          n = slide.length - 1;
+        }
+        document.getElementById("slide-image4").setAttribute("src", slide[n]);
+        var n = Math.floor(Math.random() * 10);
+        if (n > slide.length - 1) {
+          n = slide.length - 1;
+        }
+        document.getElementById("slide-image5").setAttribute("src", slide[n]);
+        var n = Math.floor(Math.random() * 10);
+        if (n > slide.length - 1) {
+          n = slide.length - 1;
+        }
+        document.getElementById("slide-image6").setAttribute("src", slide[n]);
+        var n = Math.floor(Math.random() * 10);
+        if (n > slide.length - 1) {
+          n = slide.length - 1;
+        }
+        document.getElementById("slide-image7").setAttribute("src", slide[n]);
+        var n = Math.floor(Math.random() * 10);
+        if (n > slide.length - 1) {
+          n = slide.length - 1;
+        }
+        document.getElementById("slide-image8").setAttribute("src", slide[n]);
       }
+      function prev() {
+        // n--;
+        // if (n < 0) {
+        //   n = slide.length - 1;
+        // }
+        var n = Math.floor(Math.random() * 10);
+        if (n > slide.length - 1) {
+          n = slide.length - 1;
+        }
+        document.getElementById("slide-image1").setAttribute("src", slide[n]);
+        var n = Math.floor(Math.random() * 10);
+        if (n > slide.length - 1) {
+          n = slide.length - 1;
+        }
+        document.getElementById("slide-image2").setAttribute("src", slide[n]);
+        var n = Math.floor(Math.random() * 10);
+        if (n > slide.length - 1) {
+          n = slide.length - 1;
+        }
+        document.getElementById("slide-image3").setAttribute("src", slide[n]);
+        var n = Math.floor(Math.random() * 10);
+        if (n > slide.length - 1) {
+          n = slide.length - 1;
+        }
+        document.getElementById("slide-image4").setAttribute("src", slide[n]);
+        var n = Math.floor(Math.random() * 10);
+        if (n > slide.length - 1) {
+          n = slide.length - 1;
+        }
+        document.getElementById("slide-image5").setAttribute("src", slide[n]);
+        var n = Math.floor(Math.random() * 10);
+        if (n > slide.length - 1) {
+          n = slide.length - 1;
+        }
+        document.getElementById("slide-image6").setAttribute("src", slide[n]);
+        var n = Math.floor(Math.random() * 10);
+        if (n > slide.length - 1) {
+          n = slide.length - 1;
+        }
+        document.getElementById("slide-image7").setAttribute("src", slide[n]);
+        var n = Math.floor(Math.random() * 10);
+        if (n > slide.length - 1) {
+          n = slide.length - 1;
+        }
+        document.getElementById("slide-image8").setAttribute("src", slide[n]);
+      }
+      $(document).ready(function () {
+        var slide = new Array();
+        slide[0] = "./image/slide-img1.jpg";
+        slide[1] = "./image/slide-img2.jpg";
+        slide[2] = "./image/slide-img3.jpg";
+        slide[3] = "./image/slide-img4.jpg";
+        slide[4] = "./image/slide-img5.jpg";
+        slide[5] = "./image/slide-img6.jpg";
+        slide[6] = "./image/slide-img7.jpg";
+        slide[7] = "./image/slide-img8.jpg";
+
+        setInterval(function () {
+          var n = Math.floor(Math.random() * 10);
+          if (n > slide.length - 1) {
+            n = slide.length - 1;
+          }
+          $("#slide-image1").fadeOut(function () {
+            $("#slide-image1").attr("src", slide[n]);
+            $("#slide-image1").fadeIn();
+          });
+        }, 3000);
+
+        setInterval(function () {
+          var n = Math.floor(Math.random() * 10);
+          if (n > slide.length - 1) {
+            n = slide.length - 1;
+          }
+          $("#slide-image2").fadeOut(function () {
+            $("#slide-image2").attr("src", slide[n]);
+            $("#slide-image2").fadeIn();
+          });
+        }, 3000);
+        setInterval(function () {
+          var n = Math.floor(Math.random() * 10);
+          if (n > slide.length - 1) {
+            n = slide.length - 1;
+          }
+          $("#slide-image3").fadeOut(function () {
+            $("#slide-image3").attr("src", slide[n]);
+            $("#slide-image3").fadeIn();
+          });
+        }, 3000);
+        setInterval(function () {
+          var n = Math.floor(Math.random() * 10);
+          if (n > slide.length - 1) {
+            n = slide.length - 1;
+          }
+          $("#slide-image4").fadeOut(function () {
+            $("#slide-image4").attr("src", slide[n]);
+            $("#slide-image4").fadeIn();
+          });
+        }, 3000);
+        setInterval(function () {
+          var n = Math.floor(Math.random() * 10);
+          if (n > slide.length - 1) {
+            n = slide.length - 1;
+          }
+          $("#slide-image5").fadeOut(function () {
+            $("#slide-image5").attr("src", slide[n]);
+            $("#slide-image5").fadeIn();
+          });
+        }, 3000);
+        setInterval(function () {
+          var n = Math.floor(Math.random() * 10);
+          if (n > slide.length - 1) {
+            n = slide.length - 1;
+          }
+          $("#slide-image6").fadeOut(function () {
+            $("#slide-image6").attr("src", slide[n]);
+            $("#slide-image6").fadeIn();
+          });
+        }, 3000);
+        setInterval(function () {
+          var n = Math.floor(Math.random() * 10);
+          if (n > slide.length - 1) {
+            n = slide.length - 1;
+          }
+          $("#slide-image7").fadeOut(function () {
+            $("#slide-image7").attr("src", slide[n]);
+            $("#slide-image7").fadeIn();
+          });
+        }, 3000);
+        setInterval(function () {
+          var n = Math.floor(Math.random() * 10);
+          if (n > slide.length - 1) {
+            n = slide.length - 1;
+          }
+          $("#slide-image8").fadeOut(function () {
+            $("#slide-image8").attr("src", slide[n]);
+            $("#slide-image8").fadeIn();
+          });
+        }, 3000);
+      });
     </script>
   </body>
 </html>
