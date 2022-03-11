@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NXB-KHXH</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="top__link">
+          <div class="container top__link-container">
+            <div class="top__link-menu">
+              <ul>
+                <li><a href="#">Liên hệ</a></li>
+                <li><a href="#">Sơ đồ website</a></li>
+                <li><a href="#">Email</a></li>
+                <li><a href="#">Đăng nhập</a></li>
+              </ul>
+            </div>
+            <div class="top__link-logo">
+              <img src="./image/top__link-img1.jpg" alt="" />
+              <img src="./image/top__link-img2.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="banner">
+          <div class="container banner__container">
+            <div class="banner__title">
+              <img src="./image/banner-img.jpg" alt="" />
+            </div>
+            <div class="banner__search">
+              <div class="banner__search-input">
+                <input type="text" placeholder="Tìm kiếm..." />
+                <a><i class="fa-solid fa-magnifying-glass"></i></a>
+              </div>
+              <div class="banner__search-advanced">
+                <a href="#">Tìm kiếm nâng cao</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu">
+          <div class="container menu__container">
+            <ul>
+              <li><a href="#">TRANG CHỦ</a></li>
+              <li class="menu__list">
+                <a href="#">GIỚI THIỆU</a>
+                <ul class="menu__item">
+                  <li><a href="#">Lịch sử phát triển</a></li>
+                  <li><a href="#">Lịch sử phát triển</a></li>
+                  <li><a href="#">Lịch sử phát triển</a></li>
+                  <li><a href="#">Lịch sử phát triển</a></li>
+                </ul>
+              </li>
+              <li><a href="#">TIN TỨC, SỰ KIỆN</a></li>
+              <li><a href="#">SÁCH MỚI</a></li>
+              <li><a href="#">DIỄN ĐÀN</a></li>
+              <li><a href="#">LIÊN HỆ</a></li>
+            </ul>
+            <div class="menu__sub"></div>
+          </div>
+        </div>
+      </header>
+      <section class="slide">
+        <div class="container slide__container">
+          <ul class="slide__image-list">
+            <li class="slide__image-item">
+              <a href="#"
+                ><img src="./image/slide-img1.jpg" id="slide-image" alt=""
+              /></a>
+            </li>
+            <li class="slide__image-item">
+              <a href="#"
+                ><img src="./image/slide-img2.jpg" id="slide-image" alt=""
+              /></a>
+            </li>
+            <li class="slide__image-item">
+              <a href="#"
+                ><img src="./image/slide-img3.jpg" id="slide-image" alt=""
+              /></a>
+            </li>
+            <li class="slide__image-item">
+              <a href="#"
+                ><img src="./image/slide-img4.jpg" id="slide-image" alt=""
+              /></a>
+            </li>
+            <li class="slide__image-item">
+              <a href="#"
+                ><img src="./image/slide-img5.jpg" id="slide-image" alt=""
+              /></a>
+            </li>
+            <li class="slide__image-item">
+              <a href="#"
+                ><img src="./image/slide-img6.jpg" id="slide-image" alt=""
+              /></a>
+            </li>
+            <li class="slide__image-item">
+              <a href="#"
+                ><img src="./image/slide-img7.jpg" id="slide-image" alt=""
+              /></a>
+            </li>
+            <li class="slide__image-item">
+              <a href="#"
+                ><img src="./image/slide-img8.jpg" id="slide-image" alt=""
+              /></a>
+            </li>
+          </ul>
+          <div id="prev" class="slide__prev" onclick="prev();">
+            <img src="./image/slide-prev.jpg" alt="" />
+          </div>
+          <div id="next" class="slide__next" onclick="next();">
+            <img src="./image/slide-next.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <div class="main">
+        <div class="container main__container">
+          <div class="main__left">
+            <div class="main__left-category">
+              <div class="main__title">Danh mục sách</div>
+              <ul class="main__left-list">
+                <li class="main__left-item"><a href="#">Triết học</a></li>
+                <li class="main__left-item"><a href="#">Kinh tế</a></li>
+                <li class="main__left-item"><a href="#">Luật</a></li>
+                <li class="main__left-item"><a href="#">Tâm lý</a></li>
+                <li class="main__left-item"><a href="#">Xã hội học</a></li>
+                <li class="main__left-item">
+                  <a href="#">Gia đình và Giới</a>
+                </li>
+                <li class="main__left-item"><a href="#">Văn học</a></li>
+                <li class="main__left-item"><a href="#">Ngôn ngữ</a></li>
+                <li class="main__left-item"><a href="#">Hán Nôm</a></li>
+                <li class="main__left-item"><a href="#">Lịch sử</a></li>
+                <li class="main__left-item"><a href="#">Dân tộc học</a></li>
+                <li class="main__left-item"><a href="#">Khảo cổ</a></li>
+                <li class="main__left-item"><a href="#">Văn hóa</a></li>
+                <li class="main__left-item"><a href="#">Tôn giáo</a></li>
+                <li class="main__left-item"><a href="#">Từ điển</a></li>
+                <li class="main__left-item">
+                  <a href="#">Nghiên cứu quốc tế</a>
+                </li>
+              </ul>
+            </div>
+            <div class="main__left-search">
+              <div class="main__title">Tìm kiếm sách</div>
+              <div class="main__left-search-content">
+                <div class="main__left-search-content-book">
+                  <input type="text" placeholder="Nhập tên sách..." />
+                </div>
+                <div class="main__left-search-content-category">
+                  <select name="" id="">
+                    <option value="">
+                      Chọn danh mục sách&nbsp;&nbsp;&nbsp;
+                    </option>
+                    <option value="">Triết học</option>
+                    <option value="">Kinh tế</option>
+                  </select>
+                </div>
+                <div class="main__left-search-content-author">
+                  <select name="" id="">
+                    <option value="">Tên tác giả&nbsp;&nbsp;&nbsp;</option>
+                    <option value="">Triết học</option>
+                    <option value="">Kinh tế</option>
+                  </select>
+                </div>
+                <div class="main__left-search-content-idBook">
+                  <select name="" id="">
+                    <option value="">Mã sách&nbsp;&nbsp;&nbsp;</option>
+                    <option value="">Triết học</option>
+                    <option value="">Kinh tế</option>
+                  </select>
+                </div>
+                <div class="main__left-search-content-btn">
+                  <button>Tìm kiếm</button>
+                </div>
+              </div>
+              <div class="main__left-search-image">
+                <img src="./image/main__left-search-book-bg.jpg" alt="" />
+              </div>
+            </div>
+            <div class="main__left-link">
+              <div class="main__title">Liên kết website</div>
+              <div class="main__left-link-select">
+                <select name="" id="">
+                  <option value="">
+                    Lựa chọn website&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </option>
+                  <option value="">Triết học</option>
+                  <option value="">Kinh tế</option>
+                </select>
+              </div>
+            </div>
+            <div class="main__left-image">
+              <img src="./image/main__left-img1.jpg" alt="" /><img
+                src="./image/main__left-img2.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="main__content">
+            <div class="main__content-title">GIỚI THIỆU SÁCH</div>
+            <div class="main__content-main">
+              <ul class="main__content-main-list">
+                <li class="main__content-main-item">
+                  <div class="main__content-main-item-image">
+                    <img src="./image/item-1.jpg" alt="" />
+                  </div>
+                  <div class="main__content-main-item-content">
+                    <a href="#"
+                      >Một số vấn đề lý luận ngôn ngữ học và tiếng Việt</a
+                    >
+                    <div class="main__content-main-item-content-origin">
+                      <p class="main__content-main-item-content-origin-author">
+                        Tác giả: <span>Nhà xuất bản KHXH</span>
+                      </p>
+                      <p class="main__content-main-item-content-origin-book">
+                        Giá sách: <span>532.000.000</span> triệu
+                      </p>
+                    </div>
+                    <p class="main__content-main-item-content-desc">
+                      ĐTTS ghi: Viện Khoa học xã hội Việt Nam. Viện Từ điển học
+                      và Bách khoa thư Việt Nam. Từ khóa: 1. Tiếng Việt 2. Ngôn
+                      ngữ học 3. Tác phẩm 4. Tác giả 5. Từ điển học
+                    </p>
+                    <div class="main__content-main-item-content-btn">
+                      MUA SÁCH NÀY
+                    </div>
+                  </div>
+                </li>
+                <li class="main__content-main-item">
+                  <div class="main__content-main-item-image">
+                    <img src="./image/item-2.jpg" alt="" />
+                  </div>
+                  <div class="main__content-main-item-content">
+                    <a href="#"
+                      >Một số vấn đề lý luận ngôn ngữ học và tiếng Việt</a
+                    >
+                    <div class="main__content-main-item-content-origin">
+                      <p class="main__content-main-item-content-origin-author">
+                        Tác giả: <span>Nhà xuất bản KHXH</span>
+                      </p>
+                      <p class="main__content-main-item-content-origin-book">
+                        Giá sách: <span>532.000.000</span> triệu
+                      </p>
+                    </div>
+                    <p class="main__content-main-item-content-desc">
+                      ĐTTS ghi: Viện Khoa học xã hội Việt Nam. Viện Từ điển học
+                      và Bách khoa thư Việt Nam. Từ khóa: 1. Tiếng Việt 2. Ngôn
+                      ngữ học 3. Tác phẩm 4. Tác giả 5. Từ điển học
+                    </p>
+                    <div class="main__content-main-item-content-btn">
+                      MUA SÁCH NÀY
+                    </div>
+                  </div>
+                </li>
+                <li class="main__content-main-item">
+                  <div class="main__content-main-item-image">
+                    <img src="./image/item-3.jpg" alt="" />
+                  </div>
+                  <div class="main__content-main-item-content">
+                    <a href="#"
+                      >Một số vấn đề lý luận ngôn ngữ học và tiếng Việt</a
+                    >
+                    <div class="main__content-main-item-content-origin">
+                      <p class="main__content-main-item-content-origin-author">
+                        Tác giả: <span>Nhà xuất bản KHXH</span>
+                      </p>
+                      <p class="main__content-main-item-content-origin-book">
+                        Giá sách: <span>532.000.000</span> triệu
+                      </p>
+                    </div>
+                    <p class="main__content-main-item-content-desc">
+                      ĐTTS ghi: Viện Khoa học xã hội Việt Nam. Viện Từ điển học
+                      và Bách khoa thư Việt Nam. Từ khóa: 1. Tiếng Việt 2. Ngôn
+                      ngữ học 3. Tác phẩm 4. Tác giả 5. Từ điển học
+                    </p>
+                    <div class="main__content-main-item-content-btn">
+                      MUA SÁCH NÀY
+                    </div>
+                  </div>
+                </li>
+                <li class="main__content-main-item">
+                  <div class="main__content-main-item-image">
+                    <img src="./image/item-1.jpg" alt="" />
+                  </div>
+                  <div class="main__content-main-item-content">
+                    <a href="#"
+                      >Một số vấn đề lý luận ngôn ngữ học và tiếng Việt</a
+                    >
+                    <div class="main__content-main-item-content-origin">
+                      <p class="main__content-main-item-content-origin-author">
+                        Tác giả: <span>Nhà xuất bản KHXH</span>
+                      </p>
+                      <p class="main__content-main-item-content-origin-book">
+                        Giá sách: <span>532.000.000</span> triệu
+                      </p>
+                    </div>
+                    <p class="main__content-main-item-content-desc">
+                      ĐTTS ghi: Viện Khoa học xã hội Việt Nam. Viện Từ điển học
+                      và Bách khoa thư Việt Nam. Từ khóa: 1. Tiếng Việt 2. Ngôn
+                      ngữ học 3. Tác phẩm 4. Tác giả 5. Từ điển học
+                    </p>
+                    <div class="main__content-main-item-content-btn">
+                      MUA SÁCH NÀY
+                    </div>
+                  </div>
+                </li>
+                <li class="main__content-main-item">
+                  <div class="main__content-main-item-image">
+                    <img src="./image/item-2.jpg" alt="" />
+                  </div>
+                  <div class="main__content-main-item-content">
+                    <a href="#"
+                      >Một số vấn đề lý luận ngôn ngữ học và tiếng Việt</a
+                    >
+                    <div class="main__content-main-item-content-origin">
+                      <p class="main__content-main-item-content-origin-author">
+                        Tác giả: <span>Nhà xuất bản KHXH</span>
+                      </p>
+                      <p class="main__content-main-item-content-origin-book">
+                        Giá sách: <span>532.000.000</span> triệu
+                      </p>
+                    </div>
+                    <p class="main__content-main-item-content-desc">
+                      ĐTTS ghi: Viện Khoa học xã hội Việt Nam. Viện Từ điển học
+                      và Bách khoa thư Việt Nam. Từ khóa: 1. Tiếng Việt 2. Ngôn
+                      ngữ học 3. Tác phẩm 4. Tác giả 5. Từ điển học
+                    </p>
+                    <div class="main__content-main-item-content-btn">
+                      MUA SÁCH NÀY
+                    </div>
+                  </div>
+                </li>
+                <li class="main__content-main-item">
+                  <div class="main__content-main-item-image">
+                    <img src="./image/item-3.jpg" alt="" />
+                  </div>
+                  <div class="main__content-main-item-content">
+                    <a href="#"
+                      >Một số vấn đề lý luận ngôn ngữ học và tiếng Việt</a
+                    >
+                    <div class="main__content-main-item-content-origin">
+                      <p class="main__content-main-item-content-origin-author">
+                        Tác giả: <span>Nhà xuất bản KHXH</span>
+                      </p>
+                      <p class="main__content-main-item-content-origin-book">
+                        Giá sách: <span>532.000.000</span> triệu
+                      </p>
+                    </div>
+                    <p class="main__content-main-item-content-desc">
+                      ĐTTS ghi: Viện Khoa học xã hội Việt Nam. Viện Từ điển học
+                      và Bách khoa thư Việt Nam. Từ khóa: 1. Tiếng Việt 2. Ngôn
+                      ngữ học 3. Tác phẩm 4. Tác giả 5. Từ điển học
+                    </p>
+                    <div class="main__content-main-item-content-btn">
+                      MUA SÁCH NÀY
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="main__content-footer">
+              <ul class="main__content-footer-list">
+                <li class="main__content-footer-item"><a href="#">1</a></li>
+                <li class="main__content-footer-item"><a href="#">2</a></li>
+                <li class="main__content-footer-item"><a href="#">3</a></li>
+                <li class="main__content-footer-item"><a href="#">4</a></li>
+                <li class="main__content-footer-item"><a href="#">5</a></li>
+                <li class="main__content-footer-item"><a href="#">6</a></li>
+                <li class="main__content-footer-item"><a href="#">7</a></li>
+                <li class="main__content-footer-item"><a href="#">...</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="main__right">
+            <div class="main__right-support">
+              <div class="main__title">Hỗ trợ trực tuyến</div>
+              <div class="main__right-support-content">
+                <ul class="main__right-support-content-list">
+                  <li class="main__right-support-content-item">
+                    <img src="./image/logo-phone.jpg" alt="" />
+                    <a href="#"> 1900 999999</a>
+                  </li>
+                  <li class="main__right-support-content-item">
+                    <img src="./image/logo-email.jpg" alt="" />
+                    <a href="#">Email nhà xuất bản KHXH</a>
+                  </li>
+                  <li class="main__right-support-content-item">
+                    <img src="./image/logo-yahoo.jpg" alt="" />
+                    <a href="#">Nhà xuất bản KHXH</a>
+                  </li>
+                  <li class="main__right-support-content-item">
+                    <img src="./image/logo-skyper.jpg" alt="" />
+                    <a href="#">Nhà xuất bản KHXH</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="main__right-new">
+              <div class="main__title">Tin tức</div>
+              <div class="main__right-new-content">
+                <ul class="main__right-new-content-list">
+                  <li class="main__right-new-content-item">
+                    <a href="#">
+                      <img src="./image/new-img1.jpg" alt="" />
+                      <p>
+                        Nhà sách Trí Tuệ sắp phát hành cuốn "Tuyển tập thơ, đồng
+                        dao, câu đố dành cho thiếu nhi"
+                      </p>
+                    </a>
+                  </li>
+                  <li class="main__right-new-content-item">
+                    <a href="#"
+                      ><img src="./image/new-img2.jpg" alt="" />
+                      <p>
+                        Nhà sách Trí Tuệ sắp phát hành cuốn "Tuyển tập thơ, đồng
+                        dao, câu đố dành cho thiếu nhi"
+                      </p></a
+                    >
+                  </li>
+                  <li class="main__right-new-content-item">
+                    <a href="#"
+                      ><img src="./image/new-img3.jpg" alt="" />
+                      <p>
+                        Nhà sách Trí Tuệ sắp phát hành cuốn "Tuyển tập thơ, đồng
+                        dao, câu đố dành cho thiếu nhi"
+                      </p></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="main__right-commingsoon">
+              <div class="main__title">Sách sắp xuất bản</div>
+              <div class="main__right-commingsoon-content">
+                <ul class="main__right-commingsoon-content-list">
+                  <li class="main__right-commingsoon-content-item">
+                    <img src="./image/commingsoon-img1.jpg" alt="" />
+                    <div class="main__right-commingsoon-content-item-content">
+                      <p class="title">
+                        Lịch sử Đông Nam Á / Trần Khánh (ch.b.), Hoàng Anh Tuấn,
+                        Nguyễn Văn Kim...
+                      </p>
+                      <p class="author">Tác giả: <span>Nhà xuất bản</span></p>
+                      <p class="book">Giá: <span>532.000.000</span> triệu</p>
+                    </div>
+                    <div class="main__right-commingsoon-content-item-btn">
+                      <a href="#">Mua sách này</a>
+                    </div>
+                  </li>
+                  <li class="main__right-commingsoon-content-item">
+                    <img src="./image/commingsoon-img2.jpg" alt="" />
+                    <div class="main__right-commingsoon-content-item-content">
+                      <p class="title">
+                        Lịch sử Đông Nam Á / Trần Khánh (ch.b.), Hoàng Anh Tuấn,
+                        Nguyễn Văn Kim...
+                      </p>
+                      <p class="author">Tác giả: <span>Nhà xuất bản</span></p>
+                      <p class="book">Giá: <span>532.000.000</span> triệu</p>
+                    </div>
+                    <div class="main__right-commingsoon-content-item-btn">
+                      <a href="#">Mua sách này</a>
+                    </div>
+                  </li>
+                  <li class="main__right-commingsoon-content-item">
+                    <img src="./image/commingsoon-img3.jpg" alt="" />
+                    <div class="main__right-commingsoon-content-item-content">
+                      <p class="title">
+                        Lịch sử Đông Nam Á / Trần Khánh (ch.b.), Hoàng Anh Tuấn,
+                        Nguyễn Văn Kim...
+                      </p>
+                      <p class="author">Tác giả: <span>Nhà xuất bản</span></p>
+                      <p class="book">Giá: <span>532.000.000</span> triệu</p>
+                    </div>
+                    <div class="main__right-commingsoon-content-item-btn">
+                      <a href="#">Mua sách này</a>
+                    </div>
+                  </li>
+                  <li class="main__right-commingsoon-content-item">
+                    <img src="./image/commingsoon-img4.jpg" alt="" />
+                    <div class="main__right-commingsoon-content-item-content">
+                      <p class="title">
+                        Lịch sử Đông Nam Á / Trần Khánh (ch.b.), Hoàng Anh Tuấn,
+                        Nguyễn Văn Kim...
+                      </p>
+                      <p class="author">Tác giả: <span>Nhà xuất bản</span></p>
+                      <p class="book">Giá: <span>532.000.000</span> triệu</p>
+                    </div>
+                    <div class="main__right-commingsoon-content-item-btn">
+                      <a href="#">Mua sách này</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer__menu">
+          <div class="container">
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a href="#">QUẢN LÝ TÀI KHOẢN</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#">TRỢ GIÚP</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#">GIỚI THIỆU NHÀ XUẤT BẢN</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__menu-sub">
+          <div class="container">
+            <ul class="footer__menu-sub-list">
+              <li class="footer__menu-sub-item">
+                <ul>
+                  <li><a href="#">Tạo tài khoản</a></li>
+                  <li><a href="#">Đăng nhập</a></li>
+                  <li><a href="#">Thay đổi thông tin tài khoản</a></li>
+                  <li><a href="#">Quên mật khẩu</a></li>
+                  <li><a href="#">Lịch sử mua hàng</a></li>
+                </ul>
+              </li>
+              <li class="footer__menu-sub-item">
+                <ul>
+                  <li><a href="#">Quy định sử dụng</a></li>
+                  <li><a href="#">Hướng dẫn mua hàng</a></li>
+                  <li><a href="#">Phương thức thanh toán</a></li>
+                  <li><a href="#">Phương thức vận chuyển</a></li>
+                  <li><a href="#">Các câu hỏi thường gặp F.A.Q</a></li>
+                </ul>
+              </li>
+              <li class="footer__menu-sub-item">
+                <ul>
+                  <li><a href="#">Giới thiệu nhà xuất bản</a></li>
+                  <li><a href="#">Liên hệ</a></li>
+                  <li><a href="#">Góc báo chí</a></li>
+                  <li><a href="#">Sơ đồ Website</a></li>
+                </ul>
+              </li>
+              <div class="footer__menu-sub-logo">
+                <a href="#"><img src="./image/logo-footer.jpg" alt="" /></a>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__menu-bottom">
+          <div class="container">
+            <h3>NHÀ XUẤT BẢN KHOA HỌC XÃ HỘi</h3>
+            <ul>
+              <li>
+                <p>Social Sciences Publishing House</p>
+                <p>36 Hàng Chuối - Hai Bà Trưng - Hà Nội</p>
+                <p>
+                  Tel: 04.39719073 - Fax: 04.39719071 - Email: nxbkhxh@gmail.com
+                </p>
+              </li>
+              <li>
+                <h4>CHI NHÁNH NHÀ XUẤt BẢN KHOA HỌC XÃ HỘI</h4>
+                <p>
+                  57 Sương Nguyệt Ánh - Phường Bến Thành - Quận I - TP Hồ Chí
+                  Minh
+                </p>
+                <p>Tel: 08.38394948 - Fax: 08.38394948</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script>
+      var slide = new Array();
+      slide[0] = "./image/slide-img3.jpg";
+      slide[1] = "./image/slide-img5.jpg";
+      slide[2] = "./image/slide-img7.jpg";
+      slide[3] = "./image/slide-img6.jpg";
+      slide[4] = "./image/slide-img4.jpg";
+      slide[5] = "./image/slide-img3.jpg";
+      slide[6] = "./image/slide-img1.jpg";
+      slide[7] = "./image/slide-img8.jpg";
+      var n = 0;
+      function next() {
+        n++;
+        if (n == slide.length) {
+          n = 0;
+        }
+        document.getElementById("slide-image").setAttribute("src", slide[n]);
+      }
+      function prev() {
+        n--;
+        if (n < 0) {
+          n = slide.length - 1;
+        }
+        document.getElementById("slide-image").setAttribute("src", slide[n]);
+      }
+    </script>
+  </body>
+</html>
